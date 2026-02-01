@@ -1,7 +1,4 @@
-// script.js - обновленный для адаптивности
-
 document.addEventListener('DOMContentLoaded', function() {
-    // Слайдер героя
     const slides = document.querySelectorAll('.slide');
     let currentSlide = 0;
     
@@ -11,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
         slides[currentSlide].classList.add('active');
     }
     
-    // Автопрокрутка слайдов
     setInterval(() => {
         showSlide(currentSlide + 1);
     }, 5000);
