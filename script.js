@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     setInterval(() => {
         showSlide(currentSlide + 1);
-    }, 5000);
+    }, 6000);
     
     // Мобильное меню
     const navToggle = document.createElement('button');
